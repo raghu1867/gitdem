@@ -41,13 +41,6 @@ public class HomePage extends TestBase {
 	public boolean verifyCorrectUserName(){
 		return userNameLabel.isDisplayed();
 	}
-	public boolean verifyCorrectUserName1(){
-		return userNameLabel.isDisplayed();
-	}public boolean verifyCorrectUserName2(){
-		return userNameLabel.isDisplayed();
-	}
-	
-	
 	
 	public ContactsPage clickOnContactsLink(){
 		contactsLink.click();
@@ -68,6 +61,10 @@ public class HomePage extends TestBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(contactsLink).build().perform();
 		newContactLink.click();
+		System.out.println("123");
+		System.out.println("123");
+		System.out.println("123");
+		System.out.println("123");
 		System.out.println("123");
 		
 	}

@@ -13,6 +13,7 @@ public class ContactsPage extends TestBase {
 	@FindBy(xpath = "//td[contains(text(),'Contacts')]")
 	WebElement contactsLabel;
 	
+	
 	@FindBy(id="first_name")
 	WebElement firstName;
 	
