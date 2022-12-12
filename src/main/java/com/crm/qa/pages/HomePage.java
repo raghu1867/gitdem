@@ -41,6 +41,13 @@ public class HomePage extends TestBase {
 	public boolean verifyCorrectUserName(){
 		return userNameLabel.isDisplayed();
 	}
+	public boolean verifyCorrectUserName1(){
+		return userNameLabel.isDisplayed();
+	}public boolean verifyCorrectUserName2(){
+		return userNameLabel.isDisplayed();
+	}
+	
+	
 	
 	public ContactsPage clickOnContactsLink(){
 		contactsLink.click();
