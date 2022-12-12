@@ -26,6 +26,7 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
 	WebElement tasksLink;
+	
 
 	// Initializing the Page Objects:
 	public HomePage() {
@@ -60,6 +61,7 @@ public class HomePage extends TestBase {
 		Actions action = new Actions(driver);
 		action.moveToElement(contactsLink).build().perform();
 		newContactLink.click();
+		System.out.println("123");
 		
 	}
 	
